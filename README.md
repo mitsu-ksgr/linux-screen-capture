@@ -26,7 +26,7 @@ these scripts to support screen capture.
 ```sh
 % ./take_ss.sh -h
 
-Usage: take_ss.sh [-o] [-h] [-d] output.gif
+Usage: take_ss.sh [-o] [-h] [-d] output.png
 
 Description:
     Take the screen shot.
