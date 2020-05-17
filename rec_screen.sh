@@ -164,7 +164,7 @@ main() {
     log "Temp Dir       : ${TMP_DIR}"
 
     # Select capture range
-    local slop_result=$(slop -f "%x %y %w %h") || exit 1
+    local slop_result=$(slop -o -f "%x %y %w %h") || exit 1
     local x y w h
     read -r x y w h < <(echo $slop_result)
     log "Slop           : ($x, $y) $w x $h"

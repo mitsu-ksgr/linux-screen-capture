@@ -102,7 +102,7 @@ main() {
     log "DEBUG MODE"
     log "Output Path    : ${OPT_OUTPUT_PATH}"
 
-    maim -s ${OPT_OUTPUT_PATH}
+    maim -o -s ${OPT_OUTPUT_PATH}
 }
 
 main $@
